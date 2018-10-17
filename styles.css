@@ -27,10 +27,13 @@ a:hover {
   width: 100%;
   background: black;
   min-height: 30px;
-  padding: 10px;
+  /* padding: 10px; */
   position: fixed;
   text-align: center;
-  /* margin-top: 20px; */
+  transition: all 1s;
+}
+.main-nav:hover {
+  transition: all 1s;
 }
 .nav {
   display: flex;
@@ -42,32 +45,26 @@ a:hover {
   align-items: center;
   text-align: center;
 }
-
 .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
+  display: block;
+  margin-right: auto;
+  color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
-}
-.nav a {
-  transition: all 0.5s;
+  transition: all 1s;
 }
 .nav i {
   padding-left: 0.5rem;
 }
-.nav a i {
-  transition: all 0.5s;
-}
-.nav a:hover i {
-  /* transform: scale(3); */
-  font-size: 2rem;
-}
-.nav a:hover {
+.nav li:hover {
   transform-origin: center;
-  transition: all 0.5s;
-  color: #ff9904;
+  background-color: #ff9904;
+  line-height: 2rem;
+}
+.nav li:hover a {
+  color: black;
+  line-height: 2rem;
 }
 
 header {
