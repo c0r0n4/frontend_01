@@ -173,6 +173,9 @@ footer ul {
 footer ul li {
   display: inline-block;
 }
+footer ul li a {
+  transition: ease-in 0.5s;
+}
 
 a.social {
   display: inline-block;
