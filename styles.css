@@ -208,26 +208,11 @@ a.social:hover {
 .align-left {
   text-align: left;
 }
-
-@keyframes slide
-{
-    0%   {background-position: 0 0;}
-    100% {background-position: 100px 0;}
-}
 .picsum-traits {
   border-radius: 10% 20% 30% 40% / 50% 60% 70% 80%;
   outline: 0.3rem dashed #ff9904;
   border: 0.2rem solid black;
-  animation: slide 2s linear infinite;
-  -webkit-animation: slide 2s linear infinite;
 }
-
-
-/* @-webkit-keyframes slide {
-    0%   {background-position: 0 0;}
-    100% {background-position: 100px 0;}
-}​ */
-
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
